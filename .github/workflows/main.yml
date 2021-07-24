@@ -44,4 +44,5 @@ jobs:
         with:
           image: eu.gcr.io/deploy-276111/my-app:${{ github.sha }}
           service: my-app
+          region: europe-north1
     
